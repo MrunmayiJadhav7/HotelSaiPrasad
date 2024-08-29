@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;600;700;900&display=swap');
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:active,:hover,:focus{outline: 0 !important;outline-offset: 0;}
+
+a,
+a:hover{text-decoration: none;}
+a:hover{color: var(--primary-color) !important;}
+ul,ol{margin: 0;padding: 0;}
+.nav-link{
+    color: var(--primary-color);
+}
+.carousel-item{
+    width:100%;
+    height: 450px;
+}
+.bg{
+    width: 100%;
+    height: 65vh;
+    background: url("Vendor/img/15-SM590537.jpg");
+ 
+    
+    background-size:cover;
+    
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-position: 0 71.9125px;
+    padding: 4.375rem 0;
+}
+
+
+:root{
+    --primary-color:#A82C48;
+    /* --primary-color:#FCB644; */
+    --secondry-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    /* --white-color:#990000; */
+    --text-color:#555;
+    --text-gray:#999;
+    --text-black:#000;
+    --primary-font:'Roboto',sans-serif;
+    --secondry-font:'Quicksand',sans-serif;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+   
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container2 {
+    padding: 2px 16px;}
+
+    .text-center{
+  margin-top: 2em;
+    }
+ .column{
+text-transform: capitalize;
+ }
+ .Menu{
+    margin-left: 9em;
+ }
+ .vary{
+    font-family: cursive;
+    font-weight: bold;
+ }
+ .bg-warning{
+    font-family: cursive;
+ }
+ .card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+
+ }
+ .explore-food{
+    margin-left: 9em;
+    margin-top: 5em;
+    font-family:'Courier New', Courier, monospace;
+ }
+ .bg-dark{
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .fg{
+    font-family: cursive;
+    font-size: 20px;
+   
+ }
+ .container1-fluid{
+
+    color: #A82C48;
+ }
+ .ghg{
+  
+    width: 100%;
+ }
+ .hi{
+  font-family: cursive;
+  box-sizing: border-box;
+
+ }
+ .navbar {
+  border-bottom: 2px solid #fff;
+}
+.sticky-note {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(235, 217, 220);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-note-content {
+  padding: 10px;
+}
+.design{
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.sticky-note-tape {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 20px;
+  height: 10px;
+  background-color: #ffd700;
+  transform: rotate(-15deg);
+}
+
+.nav-link {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f8f9fa;
+}
+
+.hover-bg-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+ 
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit] {
+  background-color: #6e0412;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #090a0a;
+}
+
+.container4 {
+  border-radius: 5px;
+  background-color: #eedede;
+
+  color: #6e0412;
+}
+ .card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+  margin-left: 10em;
+        margin-right: 9em;
+        margin-top: 1em;
+    
+ }
+ #snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
